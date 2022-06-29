@@ -8,5 +8,6 @@ import (
 func main() {
 	database.MulaiDB()
 	r := router.MulaiApp()
-	r.Run(":8088")
+	r.Run(":8080")
 }
+
